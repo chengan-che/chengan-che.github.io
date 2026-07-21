@@ -6,16 +6,21 @@ author_profile: true
 ---
 
 <style>
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 2rem;
+.research-list {
   margin-top: 1.5rem;
+}
+
+.research-card {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 2.5rem;
 }
 
 .research-card img {
   width: 100%;
-  height: 220px;
+  height: 210px;
   object-fit: cover;
   object-position: top;
   border-radius: 4px;
@@ -23,22 +28,27 @@ author_profile: true
 }
 
 .research-card h2 {
-  margin: 0.7rem 0 0.3rem;
-  font-size: 1.2rem;
+  margin: 0 0 0.5rem;
+  font-size: 1.3rem;
 }
 
 .research-card p {
   margin: 0;
+  line-height: 1.6;
 }
 
-@media (max-width: 700px) {
-  .research-grid {
+@media (max-width: 800px) {
+  .research-card {
     grid-template-columns: 1fr;
+  }
+
+  .research-card img {
+    height: auto;
   }
 }
 </style>
 
-<div class="research-grid">
+<div class="research-list">
 {% for post in site.posts %}
   <article class="research-card">
     <a href="{{ post.url | relative_url }}">
@@ -48,15 +58,17 @@ author_profile: true
       >
     </a>
 
-    <h2>
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h2>
+    <div>
+      <h2>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h2>
 
-    {% if post.excerpt %}
-      <p>{{ post.excerpt | strip_html }}</p>
-    {% endif %}
+      {% if post.excerpt %}
+        <p>{{ post.excerpt | strip_html }}</p>
+      {% endif %}
+    </div>
   </article>
 {% endfor %}
 </div>
