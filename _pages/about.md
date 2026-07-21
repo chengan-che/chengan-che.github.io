@@ -14,9 +14,7 @@ I am particularly interested in learning visual representations that capture tem
 ## News
 
 **[2026]** Four papers accepted to CVPR 2026, including two first-author papers.  
-
 **[2026]** Released PL-Stitch, a self-supervised approach for learning procedure-aware video representations.
-
 **[2026]** Released LEMON, a large-scale open-access surgical video dataset containing 4194 videos and approximately 85 million frames.  
 
 ## Selected Publications
@@ -62,7 +60,7 @@ January 2022–July 2023
 Developed and deployed object detection and semantic segmentation systems, including real-time inference on NVIDIA Jetson Xavier devices.
 
 
-## Mentoring & Leadership
+## Mentoring
 
 ### Teaching Assistant and Co-Supervisor
 
