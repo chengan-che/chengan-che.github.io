@@ -6,8 +6,17 @@ permalink: /publication/2026-lemon
 date: 2026-06-01
 venue: "CVPR 2026"
 paperurl: "https://openaccess.thecvf.com/content/CVPR2026/papers/Che_LEMON_A_Large_Endoscopic_MONocular_Dataset_and_Foundation_Model_for_CVPR_2026_paper.pdf"
-citation: "Che, Chengan, Chao Wang, Tom Vercauteren, Sophia Tsoka, and Luis C. Garcia-Peraza-Herrera. LEMON: A Large Endoscopic MONocular Dataset and Foundation Model for Perception in Surgical Settings. CVPR, 2026."
+
 ---
+
+<a href="/images/publications/poster_cvpr26_lemon.png">
+  <img
+    src="/images/publications/poster_cvpr26_lemon.png"
+    alt="LEMON"
+    style="width: 320px; max-width: 100%; margin: 0.5rem 0 1rem 0; border-radius: 4px;"
+  >
+</a>
+
 
 **Chengan Che**, Chao Wang, Tom Vercauteren, Sophia Tsoka, Luis C. Garcia-Peraza-Herrera
 
