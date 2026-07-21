@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Chengan Che, a PhD researcher in Computer Vision at King's College London. My research focuses on large-scale dataset curation, video foundation model pretraining, self-supervised video representation learning, and vision-language learning.
+Hi 👋, I am Chengan Che, a PhD researcher in Computer Vision at King's College London. My research focuses on large-scale dataset curation, video foundation model pretraining, self-supervised video representation learning, and vision-language learning.
 
 I am particularly interested in learning visual representations that capture temporal and procedural structure in complex videos, with applications to surgical artificial intelligence.
 
